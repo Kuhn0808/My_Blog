@@ -8,10 +8,8 @@ function Navigation() {
       <ul className="navlist">
         <li className="navitem"><a href='#'>소개</a></li>
         <li className="navitem"><a href='#'>게시판</a></li>
-        <li className="navitem"><a href='#'>연락</a></li>
-        <li className="navitem"><a href='#'>메뉴1</a></li>
-        <li className="navitem"><a href='#'>메뉴2</a></li>
-        <li className="navitem"><a href='#'>메뉴3</a></li>
+        <li className="navitem"><a href='#'>내글보기</a></li>
+        <li className="navitem"><a href='#'>마이페이지</a></li>
       </ul>
     </div>
   );
