@@ -1,0 +1,38 @@
+.header_container {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d1d8e4;
+}
+
+.header_element {
+  margin: 0 auto;
+  width: 1080px;
+  height: 115px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.shortcut {
+  order: 1;
+  width: 100%;
+  height: 25px;
+  text-align: right;
+  background-color: #a8ff78;
+} 
+.shortcut a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.logo {
+  order: 2;
+  width: 200px;
+  height: 100px;
+}
+
+.search {
+  order: 3;
+  width: 880px;
+  background-color: #78ffd6;
+  text-align: center;
+}
