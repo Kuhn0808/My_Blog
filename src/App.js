@@ -1,14 +1,18 @@
 import React from 'react';
-import Header from './components/layout/header/header';
-import Footer from './components/layout/footer/footer';
-import Navigation from './components/layout/navigation/navigation';
-
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import Navigation from './components/navigation/navigation';
+import Main from './components/mainpage/main';
 
 function App() {
   return (
     <div>
       <Header />
-      <Navigation/>
+        <Navigation/>
+        <Routes>
+          <Route path='/' element={<Main></Main>}></Route>
+        </Routes>
       <Footer />
     </div>
   );
